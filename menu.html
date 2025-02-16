@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cafe menu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color:lightblue;
+        }
+        .menu {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            background: lightsteelblue;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .menu h2 {
+            margin-bottom: 20px;
+        }
+        .item {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 0;
+            border-bottom: 1px solid #ddd;
+        }
+        .item img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            margin-right: 15px;
+        }
+        .details {
+            flex-grow: 1;
+            text-align: left;
+        }
+        .price {
+            font-weight: bold;
+            color: #2d2d2d;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="menu">
+        <h2>Café Menu</h2>
+        <div class="item">
+            <img src="https://sumatocoffee.com/cdn/shop/articles/espresso.png?v=1718370919&width=640" alt="Espresso">
+            <div class="details">
+                <span>Espresso</span>
+            </div>
+            <span class="price">$3.00</span>
+        </div>
+        <div class="item">
+            <img src="https://www.livingnorth.com/images/media/articles/food-and-drink/eat-and-drink/coffee.png?fm=pjpg&w=1000&q=95" alt="Cappuccino">
+            <div class="details">
+                <span>Cappuccino</span>
+            </div>
+            <span class="price">$4.50</span>
+        </div>
+        <div class="item">
+            <img src="https://nucleuscoffee.com/cdn/shop/articles/Latte-recipe.jpg" alt="Latte">
+            <div class="details">
+                <span>Latte</span>
+            </div>
+            <span class="price">$5.00</span>
+        </div>
+        <div class="item">
+            <img src="https://i0.wp.com/owlbbaking.com/wp-content/uploads/2022/11/mocha-latte-recipe-Featured-Photo-Template.png?fit=1200%2C1200&ssl=1" alt="Mocha">
+            <div class="details">
+                <span>Mocha</span>
+            </div>
+            <span class="price">$5.50</span>
+        </div>
+        <div class="item">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAzGUEwyQamThUre2AZq_jyFVnfb1bXE8vgw&s" alt="Pastry">
+            <div class="details">
+                <span>Pastry</span>
+            </div>
+            <span class="price">$3.75</span>
+        </div>
+    </div>
+
+</body>
+</html>
